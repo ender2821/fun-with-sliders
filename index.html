@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fun With Tags</title>
+  <meta name="description" content="Fun With Slideshows">
+  <meta name="author" content="Josh Jensen">
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css?v=1.0">
+</head>
+<body>
+  <main>
+    <h1>Fun With Slideshows</h1>
+
+    <section class="controls-slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img1.jpg">
+        <div class="text">Caption Text</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img2.jpg">
+        <div class="text">Caption Two</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img3.jpg">
+        <div class="text">Caption Three</div>
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="dotsContain">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+    </section>
+
+  </main>
+  <script src="./scripts.js"></script>
+</body>
+</html>
